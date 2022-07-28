@@ -53,6 +53,7 @@
     object-fit: cover;
     transform: scale(1.5);
 }
+
 .fruit .img{
     object-fit: cover;
     object-fit: center;
@@ -70,6 +71,9 @@
 .social a{
     margin: 0 1rem;
 }
+.social a:hover{
+   color: red;
+}
 
 /* items section end  */
 
@@ -78,5 +82,24 @@
     width: 60%;
     display: flex;
     margin: 0 auto;
+}
+
+#active-reg{
+    border: 2px solid gray;
+}
+
+#fixed{
+    width: 340px;
+    object-fit: cover;
+}
+@media (max-width:640px){
+    #hide{
+        display:none;
+    }
+}
+@media (max-width:992px){
+    #hide{
+        display:none;
+    }
 }
 /* register end  */
