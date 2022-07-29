@@ -107,6 +107,9 @@
     #minus-margin{
         margin: 0px;
     }
+    #seasonal{
+        width: 85%;
+    }
 }
 @media (max-width:992px){
     #hide{
